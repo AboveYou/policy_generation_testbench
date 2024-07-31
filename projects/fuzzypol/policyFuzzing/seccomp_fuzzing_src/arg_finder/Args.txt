@@ -1,0 +1,50 @@
+KLEE-REPLAY: NOTE: Arguments: "./diff" "-" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "-0" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--binary  @ @ @ @     @ @  @@@" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "-10" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "-00" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--=@@     @ @ @ @     @ @  @@@" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--b=@     @ @ @ @     @ @  @@@" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--b" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--ch" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--bi=     @ @ @ @     @ @  @@@" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--ed" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--m" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--v" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "---" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--bin" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--fo" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--bri" 
+KLEE-REPLAY: NOTE: Arguments: "./diff" "--he" 
+./diff: missing operand after '-'
+./diff: missing operand after '--'
+./diff: missing operand after '-0'
+./diff: unrecognized option '--binary  @ @ @ @     @ @  @@@'
+./diff: missing operand after '-10'
+./diff: missing operand after '-00'
+./diff: option '--=@@     @ @ @ @     @ @  @@@' is ambiguous; possibilities: '--binary' '--brief' '--changed-group-format' '--color' '--context' '--ed' '--exclude' '--exclude-from' '--expand-tabs' '--forward-ed' '--from-file' '--help' '--horizon-lines' '--ifdef' '--ignore-all-space' '--ignore-blank-lines' '--ignore-case' '--ignore-file-name-case' '--ignore-matching-lines' '--ignore-space-change' '--ignore-tab-expansion' '--ignore-trailing-space' '--inhibit-hunk-merge' '--initial-tab' '--label' '--left-column' '--line-format' '--minimal' '--new-file' '--new-group-format' '--new-line-format' '--no-dereference' '--no-ignore-file-name-case' '--normal' '--old-group-format' '--old-line-format' '--paginate' '--palette' '--rcs' '--recursive' '--report-identical-files' '--sdiff-merge-assist' '--show-c-function' '--show-function-line' '--side-by-side' '--speed-large-files' '--starting-file' '--strip-trailing-cr' '--suppress-blank-empty' '--suppress-common-lines' '--tabsize' '--text' '--to-file' '--unchanged-group-format' '--unchanged-line-format' '--unidirectional-new-file' '--unified' '--version' '--width' '---presume-output-tty'
+./diff: option '--b=@     @ @ @ @     @ @  @@@' is ambiguous; possibilities: '--binary' '--brief'
+./diff: option '--b' is ambiguous; possibilities: '--binary' '--brief'
+./diff: option '--changed-group-format' requires an argument
+./diff: option '--binary' doesn't allow an argument
+./diff: missing operand after '--ed'
+./diff: missing operand after '--m'
+./diff: missing operand after '---'
+./diff: missing operand after '--bin'
+./diff: missing operand after '--fo'
+./diff: missing operand after '--bri'
+If a FILE is '-', read standard input.
+./diff: missing operand after '--'
+./diff: unrecognized option '--binary  @ @ @ @     @ @  @@@'
+./diff: option '--=@@     @ @ @ @     @ @  @@@' is ambiguous; possibilities: '--binary' '--brief' '--changed-group-format' '--color' '--context' '--ed' '--exclude' '--exclude-from' '--expand-tabs' '--forward-ed' '--from-file' '--help' '--horizon-lines' '--ifdef' '--ignore-all-space' '--ignore-blank-lines' '--ignore-case' '--ignore-file-name-case' '--ignore-matching-lines' '--ignore-space-change' '--ignore-tab-expansion' '--ignore-trailing-space' '--inhibit-hunk-merge' '--initial-tab' '--label' '--left-column' '--line-format' '--minimal' '--new-file' '--new-group-format' '--new-line-format' '--no-dereference' '--no-ignore-file-name-case' '--normal' '--old-group-format' '--old-line-format' '--paginate' '--palette' '--rcs' '--recursive' '--report-identical-files' '--sdiff-merge-assist' '--show-c-function' '--show-function-line' '--side-by-side' '--speed-large-files' '--starting-file' '--strip-trailing-cr' '--suppress-blank-empty' '--suppress-common-lines' '--tabsize' '--text' '--to-file' '--unchanged-group-format' '--unchanged-line-format' '--unidirectional-new-file' '--unified' '--version' '--width' '---presume-output-tty'
+./diff: option '--b=@     @ @ @ @     @ @  @@@' is ambiguous; possibilities: '--binary' '--brief'
+./diff: option '--b' is ambiguous; possibilities: '--binary' '--brief'
+./diff: option '--changed-group-format' requires an argument
+./diff: option '--binary' doesn't allow an argument
+./diff: missing operand after '--ed'
+./diff: missing operand after '--m'
+./diff: missing operand after '---'
+./diff: missing operand after '--bin'
+./diff: missing operand after '--fo'
+./diff: missing operand after '--bri'

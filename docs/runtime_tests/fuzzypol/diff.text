@@ -1,0 +1,1 @@
+access, arch_prctl, brk, clone, close, dup2, execve, exit_group, fcntl, ioctl, lseek, mmap, mprotect, munmap, newfstatat, openat, pipe, pread64, read, rt_sigaction, sigaltstack, wait4, write, stat, lstat

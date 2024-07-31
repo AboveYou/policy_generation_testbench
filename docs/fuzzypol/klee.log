@@ -1,0 +1,51 @@
+[+] Successfully initialized the Symbolic Execution Wrapper:
+
+[+] Starting KLEE with AFL
+7
+CMD Argv: 
+['./afl_run_afl-with-cov.py', 'diff.bc', 'diff', '30', 'KS', './GCC/', '10']
+
+Call: 
+diff.bc
+
+Use KLEE-Replay on:
+diff
+
+ [+] Call Prepare_KLEE_env Function
+(+) Prepare sandbox Step 1
+(+) Prepare sandbox Step 2
+(+) CP sandbox Step 3
+(+) Prepare env
+ [+] Call RUN_KLEE Function
+Executing KLEE Script on: 
+diff.bc
+ 
+[+] (1 of 7 Executing KLEE on  diff.bc with -sym-arg 30)
+timeout: failed to run command ‘time’: No such file or directory
+[+] (Experimental KLEE with 60 min 16GB RAM max-fork-pct=8 max-solve-pct -max-static-cpt-fork-pct=8)
+[+] (2 count ktest files in klee-last directory )
+ls: cannot access 'klee-last/*.ktest': No such file or directory
+[+] (0)
+KLEE-REPLAY: ERROR: input file klee-last/*.ktest not valid.
+1 LOOP ITERATION 
+[+] (2 of 7 Executing Klee-replay on diff )
+[+] (3 of 7 Overwrite Args.txt with grep - Arguments out of replay.txt and write to Args.txt)
+[+] (4 of 7 grep '- Arguments out of replay.txt and write to Args.txt)
+[+] (5 of 7 grep '-- Arguments out of replay.txt and write to Args.txt)
+[+] (6 of 7 grep hopefuly only KLEE Arguments out of replay.txt and write to KLEEArgs.txt)
+[+] (7 of 7 End of Script)
+[+] Have a nice day! 0
+KLEE Script End
+ [+] Finished RUN_KLEE Function
+ [+] VOR KLEE Replay
+ [+] Call Extract_KLEE_params Function
+ 
+Exported KLEE Args:
+ 
+[]
+ 
+Exported STRING Args:
+ 
+[]
+ 
+No valid argument file provided!

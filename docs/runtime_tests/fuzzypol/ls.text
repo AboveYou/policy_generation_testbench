@@ -1,0 +1,1 @@
+read, write, close, lseek, mmap, mprotect, munmap, brk, rt_sigaction, rt_sigprocmask, ioctl, pread64, access, socket, connect, uname, getcwd, readlink, capget, statfs, prctl, arch_prctl, getxattr, lgetxattr, futex, getdents64, set_tid_address, exit_group, openat, newfstatat, set_robust_list, prlimit64, statx

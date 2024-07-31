@@ -1,0 +1,8 @@
+1 = "write"
+2 = "open"
+3 = "close"
+5 = "fstat"
+9 = "mmap"
+12 = "brk"
+13 = "rt_sigaction"
+18 = "pwrite64"

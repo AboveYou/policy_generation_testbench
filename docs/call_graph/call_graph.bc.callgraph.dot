@@ -1,0 +1,15 @@
+digraph "Call graph: call_graph.bc" {
+	label="Call graph: call_graph.bc";
+
+	Node0x1b2f16d0 [shape=record,label="{functionB}"];
+	Node0x1b2f16d0 -> Node0x1b2f1620;
+	Node0x1b2f16d0 -> Node0x1b2f3420;
+	Node0x1b2f3420 [shape=record,label="{functionA}"];
+	Node0x1b2f3420 -> Node0x1b2f1620;
+	Node0x1b2f1620 [shape=record,label="{printf}"];
+	Node0x1b2eb260 [shape=record,label="{functionC}"];
+	Node0x1b2eb260 -> Node0x1b2f1620;
+	Node0x1b2eb260 -> Node0x1b2f16d0;
+	Node0x1b2eb340 [shape=record,label="{main}"];
+	Node0x1b2eb340 -> Node0x1b2eb260;
+}

@@ -1,0 +1,2 @@
+read, write, close, stat, fstat, lstat, lseek, mmap, mprotect, munmap, brk, ioctl, pread64, access, mremap,
+prctl, arch_prctl, getdents64, exit_group, openat, newfstatat, utimensat, seccomp, pipe, rt_sigaction, vfork, execve, wait4, dup2
